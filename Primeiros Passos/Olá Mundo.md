@@ -2,9 +2,9 @@
 
 Vamos supor que você queira imprimir mensagens na tela, como, por exemplo, o simples e prático `"Olá, Mundo!"`. Em qualquer linguagem de programação, você sempre começa por isso, é normal.
 
-A primeira coisa que você deve entender em Python é que os dados podem ser demilitados de maneira específica. Por exemplo, "Olá, Mundo!" é composto por letras, números, acentos, vírgulas, e por aí vai. O demilitador padrão do Python são as aspas (`"`) ou apenas uma aspa (`'`). Você sempre vai abrir uma aspa no início e fechar a aspa no final da mensagem, por exemplo: `'Olá, Mundo'`. No entanto, você pode usar aspas simples ou duplas, mas a grande maioria das coisas em Python usa aspas simples.
+A primeira coisa que você deve entender em Python é que os dados podem ser demilitados de maneira específica. Por exemplo, "Olá, Mundo!" é composto por letras, números, acentos, vírgulas, e por aí vai. O demilitador padrão do Python são as aspas simples e aspas duplas. Você sempre vai abrir uma aspa no início e fechar a aspa no final da mensagem, por exemplo: `'Olá, Mundo'`. No entanto, você pode usar aspas simples ou duplas, mas a grande maioria das coisas em Python usa aspas simples.
 
-Uma coisa simples e técnica é que todos os comandos são funções, e toda função deve ter parênteses. Na função `print`, estamos pedindo para a máquina escrever na tela "Olá, Mundo":
+Uma coisa simples e técnica é que todos os comandos são funções, e toda função deve ter parênteses. Na função `print`, estamos pedindo para a máquina imprimir ou escrever algo na tela "Olá, Mundo":
 
 ```python
 print('Olá, Mundo')
@@ -12,14 +12,14 @@ print('Olá, Mundo')
 A função `print()` é a principal forma de impressão de mensagens em Python.
 - A palavra-chave `print` indica que o Python está pronto para imprimir algo no console (tela).
 - O texto entre as aspas simples ou duplas é chamado de string e representa a mensagem que será impressa. Neste exemplo.
-- As mensagens entre as aspas simples (' ') ou duplas (" ") são os
-dados que serão impressos. Neste exemplo, "Olá, Mundo" é
+- As mensagens entre as aspas simples (`' '`) ou duplas (`" "`) são os
+dados que serão impressos. Neste exemplo, `"Olá, Mundo"` é
 a mensagem que será impressa.
 
 # Apresentar numeros em Python
 Os números não estão entre aspas em Python. Eu irei representar os dois números 50 e 40; você deve compreender que estes números são diferentes do "olá mundo" de cima. Eles não estão entre aspas duplas e aspas simples porque não são mensagens, são números. Mas qual a diferença entre mensagens e números? As mensagens são usadas para exibir informações na tela, enquanto números são utilizados para realizar cálculos.
 
-Entre esses números 50 e 40, podemos fazer uma operação. Iremos usar uma conta simples e somar os dois (50 + 40). Se você quiser exibir essa operação na tela, deverá chamar a função `print`.
+Entre esses números `50` e `40`, podemos fazer uma operação. Iremos usar uma conta simples e somar os dois (`50 + 40`). Se você quiser exibir essa operação na tela, deverá chamar a função `print`.
 ```python
 print('50 + 40')
 ```
@@ -101,3 +101,34 @@ O print continua sendo o mesmo:
 print(nome,idade,peso)
 ```
 Agora execute o código.
+# Saída formatada
+No Python 3, podemos formatar nossas mensagens usando a função `print`, como é o caso aqui.
+
+Para isso, utilizamos as chaves `{}`, pois esse bloco será substituído pela formatação.
+
+Vamos dar um exemplo:
+```python
+nome = input('Qual seu nome? ')
+print('Seja bem vindo(a) {}'.format(nome))
+```
+para usar mais de uma chave, usamos do seguinte modo:
+
+```python
+nome = input('Qual é seu nome? ')
+idade = input('Qual é a sua idade? ')
+
+mensagem = ('Olá, bem vindo(a) {}, sua idade é {}, acertei?'.format(nome, idade))
+
+print(mensagem)
+```
+No código acima, criei as `variáveis` junto com o `input` para a máquina receber as respostas e armazenar nas variáveis (`nome` e `idade`). Logo depois, criei outra variável de mensagem contendo os dados armazenados nas variáveis para, em seguida, imprimir no nosso terminal. Observe que usei mais de uma `chave`, pois incluí tanto o nome quanto a idade. Para utilizar dois `parâmetros`, basta usar uma `vírgula` e adicionar o segundo. No método format, utilizamos dentro dos parênteses o nome das variáveis conforme você as definiu. É bem simples.
+
+agora vejamos com uma soma simples:
+```python
+numero1 = int(input('Primeiro numero: '))
+numero2 = int(input('Segundo numero: '))
+
+soma = (numero1+numero2)
+
+print('A soma é {}'.format(soma))
+```
