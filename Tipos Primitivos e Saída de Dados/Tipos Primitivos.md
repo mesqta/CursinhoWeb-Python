@@ -1,6 +1,6 @@
-Toda linguagem de programação possui 4 tipos primitivos, e o Python não é diferente. No entanto, o Python tem mais do que esses 4 tipos, embora os 4 tipos que vou mostrar sejam fundamentais e importantes para a linguagem.
+- Toda linguagem de programação possui 4 tipos primitivos, e o Python não é diferente. No entanto, o Python tem mais do que esses 4 tipos, embora os 4 tipos que vou mostrar sejam fundamentais e importantes para a linguagem.
 
-Input & Int:
+## Input & Int:
 
 No input, mesmo que tenhamos digitado um número dentro dele, ele não é considerado um número; é considerado uma string.
 
