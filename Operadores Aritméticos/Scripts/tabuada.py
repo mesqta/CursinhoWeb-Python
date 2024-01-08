@@ -1,23 +1,21 @@
-tabuada = int(input('Escreva algum numero para eu ler: '))
+tabuada = int(input('Coloque o numero para multiplicar aqui: '))
 
-x1 = tabuada*1
-x2 = tabuada*2
-x3 = tabuada*3
-x4 = tabuada*4
-x5 = tabuada*5
-x6 = tabuada*6
-x7 = tabuada*7
-x8 = tabuada*8
-x9 = tabuada*9
-x10 = tabuada*10
+nu1 = tabuada*1
+nu2 = tabuada*2
+nu3 = tabuada*3
+nu4 = tabuada*4
+nu5 = tabuada*5
+nu6 = tabuada*6
+nu7 = tabuada*7
+nu8 = tabuada*8
+nu9 = tabuada*9
 
-print('{}'.format(x1))
-print('{}'.format(x2))
-print('{}'.format(x3))
-print('{}'.format(x4))
-print('{}'.format(x5))
-print('{}'.format(x6))
-print('{}'.format(x7))
-print('{}'.format(x8))
-print('{}'.format(x9))
-print('{}'.format(x10))
+print('Multiplicação: {}'.format(nu1))
+print('Multiplicação: {}'.format(nu2))
+print('Multiplicação: {}'.format(nu3))
+print('Multiplicação: {}'.format(nu4))
+print('Multiplicação: {}'.format(nu5))
+print('Multiplicação: {}'.format(nu6))
+print('Multiplicação: {}'.format(nu7))
+print('Multiplicação: {}'.format(nu8))
+print('Multiplicação: {}'.format(nu9))
