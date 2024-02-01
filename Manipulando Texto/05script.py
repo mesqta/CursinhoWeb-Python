@@ -19,10 +19,10 @@ else:
                 lista = [nome1, nome2, nome3, nome4]
                 random.shuffle(lista)
                 print('A ordem é: {}'.format(lista))
-                adv2 = input('Voce gostou do jogo {}? '.format(nome))
+                adv2 = input('Voce gostou do sistema {}? '.format(nome))
                 if adv2 == 'sim':
                     print('que bom que voce gostou :D')
                 else:
-                    print('Que pena... irei melhorar na proxima')
-            else:
-                print('Que pena... fiz um sistema muito legal mas enfim... se mate então :D')
+                    print('entendi, até a próxima então!')
+        else:
+            print('Espero que voce se mate então :D')
