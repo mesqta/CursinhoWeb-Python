@@ -5,7 +5,7 @@
 
 Para imprimir uma frase na tela na linguagem Python, usaremos a função `print()`. Aqui estão alguns exemplos de como usar essa função:
 ```python
-print("Olá Mundo!")
+print('Olá Mundo!')
 ```
 Apenas nesta linha foi possível executar a função para imprimir uma mensagem dentro das aspas simples, o que gerou como resultado: `'Olá Mundo!'`. Podemos usar tanto aspas simples quanto aspas duplas para imprimir uma mensagem na tela, porém a grande maioria da comunidade usa apenas aspas simples.
 <hr>
@@ -22,8 +22,8 @@ print(nome)
 Pode-se criar mais de uma variável e imprimi-las dentro de uma única função `print()`? Sim, podemos. Irei criar mais dois exemplos de como você pode fazer isso, mas para isso, eu irei manter a variável 'nome' com a mensagem do meu nome, no caso, `'Alvaro'`, e irei criar as variáveis `'peso'` e `'altura'`. Então, irá ficar:
 ```python
 nome = 'Alvaroo'
-peso = '55.54'
-altura = '1.50'
+peso = 55.54
+altura = 1.50
 print(nome, peso, altura)
 ```
 ou:
