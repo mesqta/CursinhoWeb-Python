@@ -73,3 +73,39 @@ primeiro_nome = input('Qual seu nome?: ')
 segundo_nome = input('Qual seu sobrenome?: ')
 print(f'Seu nome é {primeiro_nome} e seu sobrenome {segundo_nome}.')
 ```
+
+Então basicamentea função `print` vai imprimir o que está dentro das aspas, mas a função `input()`
+pega o que estiver digitado na tela.
+## Terminal:
+```python
+Qual seu nome?:
+```
+O usuario digita: Alvaroo
+```python
+Qual seu sobrenome?:
+```
+o usuario digita: Mesquita
+```python
+Terminal: Seu nome é Alvaroo e seu sobrenome Mesquita.
+```
+<hr>
+
+Basicamente, as informações que você deu para a máquina foram armazenadas na memória e depois foram impressas para você usando a função `print`.
+<hr>
+Agora, pegue esses exemplos e crie como você quiser as coisas que você precisa. No caso, irei criar uma função para perguntar meu nome, sobrenome, idade e peso. Tudo o que eu responder será armazenado e, quando chegar à função print, será impresso e mostrará o que você digitou.
+<hr>
+
+## Terminal:
+```python
+nome = input('Qual seu nome?: ')
+sobrenome = input('Qual seu sobrenome?: ')
+idade = input('Qual sua idade?: ')
+peso = input('Qual seu peso?: ')
+print(f'Seu nome é {nome} e seu sobrenome {sobrenome}')
+print(f'Voce tem {idade} de idade e pesa {peso}')
+```
+Eu criei duas funções print para não prolongar muito o código, mas irá funcionar do mesmo jeito e você pode fazer tudo em uma print só.
+```python
+print(f'Seu nome é {nome} e seu sobrenome {sobrenome}, voce tem {idade} de idade e pesa {peso}')
+```
+<hr>
