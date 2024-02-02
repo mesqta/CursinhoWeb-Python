@@ -35,6 +35,8 @@ print(nome)
 print(peso)
 print(altura)
 ```
+Você pode perceber que os números, que no caso estão na variável `peso` e `altura`, não possuem aspas simples, apenas números. Porque é exatamente isso que eu quero que a máquina imprima, então o nome sempre será aquilo que a variável armazenou.
+
 Continuando, como você pode ver, eu criei 3 funções `print()` com cada nome das variáveis e uma contendo uma função `print()`, porém contendo os nomes das variáveis em sequência de vírgulas. Ambas funcionam, mas o que vale é a sua lógica e como você vai fazer o programa funcionar.
 
 Veja que eu adicionei mais duas variáveis como eu disse e então elas vão receber e imprimir as informações dentro das aspas simples. E você me perguntar... como o computador salva essas informações? Simples, na memória RAM do computador.
@@ -45,7 +47,6 @@ nome = 'Alvaroo'
 segundo_nome = 'Gleber'
 print(nome, segundo_nome)
 ```
-Você pode perceber que os números, que no caso estão na variável peso e altura, não possuem aspas simples, apenas números. Porque é exatamente isso que eu quero que a máquina imprima, então o nome sempre será aquilo que a variável armazenou.
 ## Interatividade
 **[Script Interatividade](./1-%20Primeiros%20comandos%20em%20Python3/03interatividade.py)**
 <hr>
