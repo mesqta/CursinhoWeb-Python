@@ -37,7 +37,7 @@ print(altura)
 ```
 Continuando, como você pode ver, eu criei 3 funções `print()` com cada nome das variáveis e uma contendo uma função `print()`, porém contendo os nomes das variáveis em sequência de vírgulas. Ambas funcionam, mas o que vale é a sua lógica e como você vai fazer o programa funcionar.
 
-Veja que eu adicionei mais duas variáveis como eu disse e então elas vão receber e imprimir as informações dentro das aspas simples. E você me pergunta... como o computador salva essas informações? Simples, na memória RAM do computador.
+Veja que eu adicionei mais duas variáveis como eu disse e então elas vão receber e imprimir as informações dentro das aspas simples. E você me perguntar... como o computador salva essas informações? Simples, na memória RAM do computador.
 
 Mas enfim, as variáveis não podem ter o mesmo nome e caso tenham, pode ocorrer um erro ou conflito no seu programa. Então, caso você queira adicionar uma variável semelhante a outra, basta você criar assim:
 ```python
