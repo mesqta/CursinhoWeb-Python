@@ -66,6 +66,7 @@ print(f'Seu nome é {nome} e seu sobrenome {sobrenome}, voce tem {idade} de idad
 
 ## Comandos básicos:
 **[Nome e Sobrenome](./2-%20Tipos%20Primitivos/02nome-sobrenome.py)** - Pega o nome e sobrenome e junta tudo.
+
 **[Nome Sobrenome e cidade](./2-%20Tipos%20Primitivos/02nome-sobrenome.py)** - Quase a mesma coisa do de cima porém inclui a cidade.
 <hr>
 
