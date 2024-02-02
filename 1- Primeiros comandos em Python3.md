@@ -95,7 +95,7 @@ Basicamente, as informações que você deu para a máquina foram armazenadas na
 Agora, pegue esses exemplos e crie como você quiser as coisas que você precisa. No caso, irei criar uma função para perguntar meu nome, sobrenome, idade e peso. Tudo o que eu responder será armazenado e, quando chegar à função print, será impresso e mostrará o que você digitou.
 <hr>
 
-## Terminal:
+## Codigo:
 ```python
 nome = input('Qual seu nome?: ')
 sobrenome = input('Qual seu sobrenome?: ')
