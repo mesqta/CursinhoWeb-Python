@@ -21,3 +21,8 @@ Vale lembrar que este repo é apenas para explicar como eu aprendi Python. Não 
 **[Módulos](./4-%20Utilizando%20Módulos.md)**
 | Quarta etapa eu explico sobre as import (importações) do Python.
 <hr>
+
+### QUINTA ETAPA
+**[Manipulação de Textos](./5-%20Manipulando%20Texto.md)**
+| Quinta etapa é a manipulação de textos.
+<hr>
