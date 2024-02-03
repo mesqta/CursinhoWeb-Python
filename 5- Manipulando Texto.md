@@ -14,7 +14,7 @@ Se você perceber, na frase acima tem apenas um espaço entre "Python" e "Descom
 
 Voltando, cada um desses espaços que o computador cria, ele cria um índice do 0 até o tamanho do final da frase.
 
-A frase "Python Descomplicado" tem 19 letras, contando do `0` até o fim dela.
+A frase "Python Descomplicado" tem 20 letras, contando do `0` até o fim dela.
 
 <hr>
 
