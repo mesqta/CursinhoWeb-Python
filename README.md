@@ -26,3 +26,13 @@ Vale lembrar que este repo é apenas para explicar como eu aprendi Python. Não 
 **[Manipulação de Textos](./5-%20Manipulando%20Texto.md)**
 | Quinta etapa é a manipulação de textos.
 <hr>
+
+### SEXTA ETAPA
+**[Condições](./6-%20Condições.md)**
+| Sexta etapa é onde eu ensino as condições e as funções dela.
+<hr>
+
+### SETIMA ETAPA
+**[Condições Aninhadas](./7-%20Condições%20Aninhadas.md)**
+| Setima etapa é onde eu ensino as condições e as funções de elif e else.
+<hr>
