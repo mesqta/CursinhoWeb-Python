@@ -36,3 +36,8 @@ Vale lembrar que este repo é apenas para explicar como eu aprendi Python. Não 
 **[Condições Aninhadas](./7-%20Condições%20Aninhadas.md)**
 | Setima etapa é onde eu ensino as condições e as funções de elif e else.
 <hr>
+
+### OITAVA ETAPA
+**[Estrutura de repetição](./8-%20Estrutura%20de%20repetição.md)**
+| Oitava etapa eu ensino sobre a função `for`.
+<hr>
