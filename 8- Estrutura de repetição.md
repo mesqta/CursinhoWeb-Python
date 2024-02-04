@@ -51,3 +51,9 @@ print('Fim')
 
 ## Comandos:
 **[Contagem Regressiva](./8-%20Estrutura%20de%20repetição/01contagem-regressiva.py)** - Comando de contagem regressiva do 10 até o 0
+
+**[Contagem Progressiva](./8-%20Estrutura%20de%20repetição/02contagem-progressiva.py)** - Contagem progressiva.
+
+**[Contagem Input](./8-%20Estrutura%20de%20repetição/03contagem-input.py)** - Input pede algo para ele. repetir X vezes.
+
+**[Contagem Input](./8-%20Estrutura%20de%20repetição/04repetição-msg.py)** - Repete a msg X vezes.
