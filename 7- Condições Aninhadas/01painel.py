@@ -59,4 +59,3 @@ else:
             print('Desculpe, irei corrigir brevemente.')
     else:
         print('Resposta inválida.')
-exit()
