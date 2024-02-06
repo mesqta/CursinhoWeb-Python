@@ -3,7 +3,7 @@ from math import sqrt, ceil, floor
 pergunta = input('Olá! Voce gostaria de ver meu painel matematico?\n[sim/nao]: ').lower()
 
 if pergunta == 'sim':
-    painel = input('[1] | SOMA SIMPLES\n[2] | RAIZ QUADRADA\n[opção]: ')
+    painel = input('[1] | SOMA SIMPLES\n[2] | RAIZ QUADRADA\n[3] | TABUADA\n[opção]: ')
     if painel == '1':
         print('Voce escolheu a opção de soma simples! Aguarde...');sleep(1)
         n1 = int(input('Primeiro numero: '))
@@ -16,12 +16,18 @@ if pergunta == 'sim':
         num = int(input('Numero: '))
         print('Calculando Raiz Quadrada...');sleep(1)
         raiz = sqrt(num)
-        print(f'Raiz Quadrada de {num} é: {raiz :.2f}')
-        print(f'Raiz Quadrada de {num} para cima é: { ceil(raiz):.2f}')
-        print(f'Raiz Quadrada de {num} para baixo é: {floor(raiz) :.2f}')
+        print(f'Raiz Quadrada de {num} é: {raiz :.2f}');sleep(1)
+        print(f'Raiz Quadrada de {num} para cima é: {ceil(raiz):.2f}');sleep(1)
+        print(f'Raiz Quadrada de {num} para baixo é: {floor(raiz) :.2f}');sleep(1)
+    elif painel == '3':
+        print('Voce escolheu a opção de tabuada! aguarde...');sleep(1)
+        num = int(input('Tabuada do numero '))
+        for n in range (11):
+            print(f'{num} x {n} = {num*n}')
     else:
         print('Opção invalida!')
-if pergunta == 'nao':
-    print('Ok. Até mais! :D')
 else:
-    print('Resposta inválida! Tente novamente.')
+    if pergunta == 'nao':
+        print('Ok. Até mais! :D')
+    else:
+        print('Resposta inválida! Tente novamente.')
