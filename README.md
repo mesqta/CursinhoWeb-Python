@@ -41,3 +41,8 @@ Vale lembrar que este repo é apenas para explicar como eu aprendi Python. Não 
 **[Estrutura de repetição](./8-%20Estrutura%20de%20repetição.md)**
 | Oitava etapa eu ensino sobre a função `for`.
 <hr>
+
+### NONA ETAPA
+**[Estrutura de repetição while](./9-%20Estrutura%20de%20repetição%20while.md)**
+| Oitava etapa eu ensino sobre a função `while`.
+<hr>

@@ -22,3 +22,16 @@ print("Foi!")
 ```
 ---
 A diferença do `for in range()` pelo `while` é que o `range()` já vem com uma iteração pronta, ou seja, ele já começa da posição zero até ao número especificado.
+
+### Interrompendo repetições while:
+
+- `while True`:
+#### Exemplo de código com `while True` interrompido pelo usuário:
+```python
+n = 2 = 0
+while True
+    n = int(input('Digite um numero: '))
+    if n == 99: # Se o usuario digitar 99, sai do loop
+        break
+print(f'O dobro de {n} é {n*2}')
+```
