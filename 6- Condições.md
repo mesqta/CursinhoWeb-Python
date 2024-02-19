@@ -59,6 +59,7 @@ else:
 -  `or`: Se alguma das condições for verdadeira
 -  `not`: Nega uma condição
 -  `in` : Verifica se um valor existe em uma lista. Ex.: `if x in y:`
+- `not in` : Verifica se um valor não existe em uma lista. Ex.: `if x not in y:`
 
 #### Exemplo de "`and`":
 ```python
