@@ -1,3 +1,7 @@
+'''
+    Segue a mesma logica do codigo anterior, porem ele escolhe apenas um nome
+'''
+
 import random
 nome1 = str(input('Nome: '))
 nome2 = str(input('Nome: '))

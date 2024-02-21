@@ -93,6 +93,17 @@ print(f'{y} está em x? {y in x}\n')
 print(f'"Olá" está em x? {"Olá" in x}\n')
 print(f'True está em x? {z in x}\n')
 ```
+#### Exemplo de "`not in`":
+```python
+nome = input('Digite o seu nome: ')
+
+lista_nomes = ['Alvaro', 'Pedro', 'Ana']
+
+if nome not in lista_nomes:
+    print('Acesso negado!')
+else:
+    print(f'Seja bem vindo(a) {nome}')
+```
 ---
 ### Situação:
 Vamos supor que você está indo para a casa da sua avó. Nessa sua condição, você tem o ponto de partida, que no caso é o seu ponto de começo, e o seu destino que é a casa da sua avó.

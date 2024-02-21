@@ -1,3 +1,7 @@
+'''
+    Mesma logica do codigo anterior porém fatiando uma string
+'''
+
 frase = 'Olha meu irmão não fique dizendo ao pove por aí que chupa o meu cacete. Não que isso não é brincadeira não meio que você tenha feito, mas isso não é coisa para estar dizendo as pessoas não meu irmão'
 
 print(f'Mostra quantos caracteres tem: {len(frase)}')

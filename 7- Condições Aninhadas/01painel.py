@@ -1,3 +1,9 @@
+'''
+    No codigo abaixo basicamente ele junta todos os aprendizados
+    criei um codigo que basicamente é um painel com 3 funções cada uma diferente da outra
+    usando as condições aninhadas
+'''
+
 from time import sleep
 from math import sqrt, ceil, floor
 pergunta = input('Olá! Voce gostaria de ver meu painel matematico?\n[sim/nao]: ').lower()

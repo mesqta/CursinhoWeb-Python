@@ -1,3 +1,7 @@
+'''
+    No codigo abaixo importamos uma biblioteca "random" com diversas funções nela
+    que no caso ele randoniza uma lista de nomes em ordem
+'''
 import random
 nome1 = str(input('Nome: '))
 nome2 = str(input('Nome: '))

@@ -1,3 +1,7 @@
+'''
+    Seguindo quase a mesma logica anterior
+'''
+
 primeiro = int(input('Primeiro numero: '))
 segundo = int(input('Segundo numero: '))
 terceiro = int(input('Terceiro numero: '))

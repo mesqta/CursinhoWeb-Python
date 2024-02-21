@@ -1,3 +1,7 @@
+'''
+    Funções de manipulação de texto e suas devidas funções
+'''
+
 nome = str(input('Digite um nome: ')).strip()
 
 print(f'Nome normal: {nome}')

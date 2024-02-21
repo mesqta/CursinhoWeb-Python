@@ -1,3 +1,6 @@
+'''
+    No codigo abaixo ele irá perguntar apenas algum numero inteiro para multiplicar
+'''
 n1 = int(input('Primeiro numero: '))
 
 print(f'{n1} x {1} = {n1*1}')

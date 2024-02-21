@@ -1,3 +1,7 @@
+'''
+    No codigo abaixo basicamente é uma tabuada mais "simplificada" e pratica
+'''
+
 while True:
     numero = int(input('Digite algum numero: '))
     if numero < 0:

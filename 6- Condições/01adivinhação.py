@@ -1,3 +1,8 @@
+'''
+    ainda na biblioteca random, o codigo abaixo é um codigo de jogo de adivinhação
+    com as condifções "if" "elif" "else"
+'''
+
 import random
 pensador = random.randint(0, 10)
 numero = int(input('Tente adivinhar um numero de 0 a 10: '))
