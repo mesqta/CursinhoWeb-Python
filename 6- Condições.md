@@ -8,6 +8,13 @@
 -  `>` Maior que
 -  `<` Menor que
 
+![Exemplo](https://media.discordapp.net/attachments/1203740621949509652/1210008011440136262/image.png?ex=65e8fec6&is=65d689c6&hm=5b0f52f40fb85dcb1a55e14090c6cc7d286f4737ac7ce4775dda4f9fc00b7fca&=&format=webp&quality=lossless&width=751&height=186)
+
+![Exemplo](https://media.discordapp.net/attachments/1203740621949509652/1210008462973730908/image.png?ex=65e8ff32&is=65d68a32&hm=7760c84e13a725ef2d8978bde08d0b49a6e127954133d7d3040dc3d95bb74b1f&=&format=webp&quality=lossless&width=752&height=148)
+
+![Exemplo](https://media.discordapp.net/attachments/1203740621949509652/1210008749843161159/image.png?ex=65e8ff76&is=65d68a76&hm=d92fb0fd5c19769e693565e710a92b14d51b1d9e633864a821d15f791690520a&=&format=webp&quality=lossless&width=754&height=283)
+
+---
 #### Exemplo de "`==`":
 ```python
 num1 = 5
@@ -60,6 +67,12 @@ else:
 -  `not`: Nega uma condição
 -  `in` : Verifica se um valor existe em uma lista. Ex.: `if x in y:`
 - `not in` : Verifica se um valor não existe em uma lista. Ex.: `if x not in y:`
+
+### Operadores de identidade
+- `is`: Retorna True se as variáveis comparadas forem o mesmo objeto
+- `not is`: Retorna True se as variáveis comparadas não forem o mesmo objeto
+
+![Exemplo](https://media.discordapp.net/attachments/1203740621949509652/1210009727828893736/image.png?ex=65e90060&is=65d68b60&hm=31bcc4433e8ec7f998ea3f743949a103476ec10bfe4e120c20c009de3953d779&=&format=webp&quality=lossless&width=760&height=269)
 
 #### Exemplo de "`and`":
 ```python

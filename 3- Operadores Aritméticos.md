@@ -12,6 +12,25 @@ Abaixo, eu deixarei uma lista de operadores aritméticos usados em Python, junto
 % : Resto da divisão (quebra para cima)
 ** : Potência
 ```
+![Exemplo](https://media.discordapp.net/attachments/1203740621949509652/1210007533339672597/image.png?ex=65e8fe54&is=65d68954&hm=85e8d7306d10981371cec67994a0d4b22d55a5e5f6a894bfac0593c3f2a18306&=&format=webp&quality=lossless&width=745&height=356)
+---
+### Operadores de atribuição:
+```python
++= : Adicionar e Atribuir
+-= : Subtrair e Atribuir
+*= : Multiplicar e Atribuir
+/= : Dividir e Atribuir
+//= : Dividir Inteiro e Atribuir
+%= : Calcular o Resto e Atribuir
+**= : Elevar a Potência e Atribuir
+```
+![Exemplo](https://media.discordapp.net/attachments/1203740621949509652/1210007757332156506/image.png?ex=65e8fe8a&is=65d6898a&hm=b57b796d7056cfe689ea0aeb7d506fd8c98fd95930b17b29edf28eb0d989aca6&=&format=webp&quality=lossless&width=755&height=103)
+### Operadores de atribuição:
+```python
+
+```
+
+---
 
 No caso acima, esses operadores são operadores aritméticos e eles precisam de operandos para funcionar. No caso, eu irei deixar números na frente deles para operar. No caso, irei colocar o operando 5 na frente deles, mas pode ser qualquer outro número ou até mesmo variáveis que contenham números. Mas nesse caso, eu irei usar apenas números. Mas ainda não terminei de explicar. E no caso abaixo, eles são operadores binários, então irei colocar mais outro número porem na frente deles, que no caso, número 2. E um operador binário precisa de dois operandos.
 

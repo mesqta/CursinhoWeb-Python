@@ -35,3 +35,6 @@ while True
         break
 print(f'O dobro de {n} é {n*2}')
 ```
+---
+
+### Interrompendo repetições while
