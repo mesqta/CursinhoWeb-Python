@@ -44,5 +44,20 @@ Vale lembrar que este repo é apenas para explicar como eu aprendi Python. Não 
 
 ### NONA ETAPA
 **[Estrutura de repetição while](./9-%20Estrutura%20de%20repetição%20while.md)**
-| Oitava etapa eu ensino sobre a função `while`.
+| Nona etapa eu ensino sobre a função `while`.
+<hr>
+
+### DECIMA ETAPA
+**[Função Def](./10-%20DEF.md)**
+| Decima etapa eu ensino sobre a função `def`.
+<hr>
+
+### DECIMA PRIMEIRA ETAPA
+**[Funções](./11-%20Funções.md)**
+| Decima etapa eu ensino sobre as funções do Python.
+<hr>
+
+### DECIMA SEGUNDA ETAPA
+**[Funções](./12-%20Tuplas.md)**
+| Decima etapa eu ensino sobre tuplas do Python.
 <hr>
